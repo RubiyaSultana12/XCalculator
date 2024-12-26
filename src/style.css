@@ -1,0 +1,23 @@
+.calculator{
+  width:300px;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+.inputbox{
+  margin-bottom: 15px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .buttons button{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+   cursor: pointer;
+  }
