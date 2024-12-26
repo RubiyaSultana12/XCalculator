@@ -12,8 +12,8 @@ function App() {
   };
 
   const handleCalculator = () => {
-    if (input.trim === "") {
-      setResult("incomplete expression");
+    if (input.trim ()=== "") {
+      setResult("Error: Incomplete expression");
     } else {
       try {
         setResult(evaluate(input));
